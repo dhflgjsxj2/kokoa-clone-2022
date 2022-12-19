@@ -1,0 +1,42 @@
+/* #no-mobile {
+    position: absolute;
+    z-index: 99;
+    height:100vh;
+    background-color: var(--yellow);
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;  
+    top:0;
+}
+
+@media screen and (max-width:645px) {
+    #no-mobile {
+        display: none;
+    }
+} */
+
+#no-mobile {
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    #no-mobile {
+        position: fixed;
+        z-index: 99;
+        height:100vh;
+        width:100vw;
+        background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F991EB44B5CB153FA1F");
+        background-size: 20% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:32px;  
+        top:0;
+    }
+
+    body {
+        overflow:hidden;
+    }
+}
